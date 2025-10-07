@@ -1,8 +1,13 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import StudentAuth from './pages/StudentAuth';
+
 function App() { 
   return (
-    <h1 className="text-3xl font-bold underline text-center">
-      Hello world!
-    </h1>
+    <Router>
+      <Routes>
+        <Route path="/" element={<StudentAuth />} />
+      </Routes>
+    </Router>
   )
 }
 
