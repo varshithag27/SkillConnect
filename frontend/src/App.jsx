@@ -15,6 +15,7 @@ function App() {
         <Route path="/CompanyAuth" element={<CompanyAuth />} />
         <Route path="/Companydashboard" element={<CompanyDashboard />} />
         <Route path="/AdminAuth" element={<AdminAuth />} />
+        <Route path="/Admindashboard" element={<AdminDashboard />} />
       </Routes>
     </Router>
   )
